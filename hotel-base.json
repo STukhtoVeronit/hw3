@@ -1,0 +1,57 @@
+{
+  "0" : {
+    "room" : {
+      "id" : 0,
+      "number" : 101,
+      "type" : "lux",
+      "price" : 180
+    },
+    "date-of-arrival" : 1532421571000,
+    "date-of-departure" : 1532521571000,
+    "price" : 0
+  },
+  "1" : {
+    "room" : {
+      "id" : 1,
+      "number" : 102,
+      "type" : "lux",
+      "price" : 150
+    },
+    "date-of-arrival" : 1532421571000,
+    "date-of-departure" : 1532521571000,
+    "price" : 0
+  },
+  "2" : {
+    "room" : {
+      "id" : 2,
+      "number" : 103,
+      "type" : "standart",
+      "price" : 80
+    },
+    "date-of-arrival" : 1532421571000,
+    "date-of-departure" : 1532521571000,
+    "price" : 0
+  },
+  "3" : {
+    "room" : {
+      "id" : 3,
+      "number" : 104,
+      "type" : "standart",
+      "price" : 70
+    },
+    "date-of-arrival" : 1532421571000,
+    "date-of-departure" : 1532521571000,
+    "price" : 0
+  },
+  "4" : {
+    "room" : {
+      "id" : 4,
+      "number" : 105,
+      "type" : "standart",
+      "price" : 70
+    },
+    "date-of-arrival" : 1532421571000,
+    "date-of-departure" : 1532521571000,
+    "price" : 0
+  }
+}
