@@ -3,9 +3,10 @@ body{
     padding: 0;
 }
 .reservation-section{
-    /*min-width: 400px;*/
+    min-width: 400px;
     margin: 20px auto;
     border: 1px solid black;
+    display: inline-block;
 }
 .reservation-section table{
     border-collapse: collapse;

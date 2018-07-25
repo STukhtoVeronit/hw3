@@ -1,4 +1,2 @@
-function hotelModel(url) {
-    let _url = url;
-
+export class HotelModel {
 }
