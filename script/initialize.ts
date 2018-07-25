@@ -1,7 +1,9 @@
+import {HotelController} from "./hotelController";
+
 window.onload = () => {
-    alert(hello("hi"));
-}
-const world = "🗺️";
-function hello(word: string = world): string {
-    return `Hello!${word}`;
+    alert("hiddd");
+    let hotelcontroller = new HotelController(1, 2);
+    hotelcontroller = new HotelController(1, 12);
+    alert(hotelcontroller);
+
 }

@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var HotelController = /** @class */ (function () {
+    function HotelController(model, view) {
+        this.hotelModel = model;
+        this.hotelView = view;
+    }
+    return HotelController;
+}());
+exports.HotelController = HotelController;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaG90ZWxDb250cm9sbGVyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiaG90ZWxDb250cm9sbGVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBR0E7SUFHSSx5QkFBWSxLQUFpQixFQUFFLElBQWU7UUFDMUMsSUFBSSxDQUFDLFVBQVUsR0FBRyxLQUFLLENBQUM7UUFDeEIsSUFBSSxDQUFDLFNBQVMsR0FBRyxJQUFJLENBQUM7SUFDMUIsQ0FBQztJQUNMLHNCQUFDO0FBQUQsQ0FBQyxBQVBELElBT0M7QUFQWSwwQ0FBZSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7SG90ZWxNb2RlbH0gZnJvbSBcIi4vaG90ZWxNb2RlbFwiO1xuaW1wb3J0IHtIb3RlbFZpZXd9IGZyb20gXCIuL0hvdGVsVmlld1wiO1xuXG5leHBvcnQgY2xhc3MgSG90ZWxDb250cm9sbGVyIHtcbiAgICBwcml2YXRlIGhvdGVsTW9kZWw6IEhvdGVsTW9kZWw7XG4gICAgcHJpdmF0ZSBob3RlbFZpZXc6IEhvdGVsVmlldztcbiAgICBjb25zdHJ1Y3Rvcihtb2RlbDogSG90ZWxNb2RlbCwgdmlldzogSG90ZWxWaWV3KSB7XG4gICAgICAgIHRoaXMuaG90ZWxNb2RlbCA9IG1vZGVsO1xuICAgICAgICB0aGlzLmhvdGVsVmlldyA9IHZpZXc7XG4gICAgfVxufVxuIl19

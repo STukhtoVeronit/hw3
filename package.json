@@ -2,7 +2,8 @@
   "name": "hw3",
   "version": "1.0.0",
   "dependencies": {
-    "tslint": "^5.11.0"
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.9.2"
   },
   "devDependencies": {
     "typescript": "^2.9.2"

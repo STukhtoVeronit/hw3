@@ -1,7 +1,5 @@
-import {HotelModel} from "./hotelModel";
-//
-// class HotelView{
-// // (model: HotelModel, elements: object) {
+export class HotelView {
+// (model: HotelModel, elements: object) {
 //     this._model = model;
 //     this._elements = elements;
 //
@@ -11,14 +9,14 @@ import {HotelModel} from "./hotelModel";
 //     let cuurentYear = (new Date).getFullYear();
 //     let dayInMonth = hotelView.getAmountDaysInMonth(cuurentMonth, cuurentYear);
 //     console.log(tableNode.appendChild());
-// }
-//
-// hotelView.prototype = {
-//     show: function () {
-//         this.refreshTable();
-//     },
-//
-//     refreshTable: function () {
-//         var list, items, key;
-//     }
-// }
+}
+
+HotelView.prototype = {
+  refreshTable() {
+    // let list, items, key;
+
+  },
+  show() {
+    HotelView.refreshTable();
+  },
+}
