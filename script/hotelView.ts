@@ -13,7 +13,7 @@ export class HotelView {
 
 // HotelView.prototype.refreshTable = function () {
 //
-// }
+// };
 //   refreshTable():void {
 //     // let list, items, key;
 //

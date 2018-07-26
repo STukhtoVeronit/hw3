@@ -1,6 +1,6 @@
 class EventObserve {
   private _sender: object;
-  private _listeners: object[] = [];
+  private _listeners: { (x:object, args:any[]): void; }[] = [];
 
   constructor(sender: object) {
     this._sender = sender;
@@ -11,14 +11,13 @@ class EventObserve {
   set sender(sender:object) {
     this._sender = sender;
   }
-  get listeners(): object[] {
-    return this._listeners;
+  attach (listener:() => void) {
+    this._listeners.push();
   }
-  set listeners(listeners:object[]) {
-    this._listeners = listeners;
-  }
-  //
-  attach () {
-    const a = 1;
+  notify (args:any) {
+    this._listeners.forEach((listener) => {
+      listener(this.sender, args);
+      alert(listener);
+    });
   }
 }
