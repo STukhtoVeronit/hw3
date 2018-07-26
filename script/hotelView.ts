@@ -11,12 +11,14 @@ export class HotelView {
 //     console.log(tableNode.appendChild());
 }
 
-HotelView.prototype = {
-  refreshTable() {
-    // let list, items, key;
-
-  },
-  show() {
-    HotelView.refreshTable();
-  },
-}
+// HotelView.prototype.refreshTable = function () {
+//
+// }
+//   refreshTable():void {
+//     // let list, items, key;
+//
+//   },
+//   show() {
+//     // HotelView.refreshTable();
+//   },
+// };
