@@ -19,10 +19,11 @@ const defaultReserveList = '[{"id":1,"room":{"id":1,"number":101,' +
     '"date-of-arrival":1532421571000,"date-of-departure":1532521571000,"price":0}]';
 
 window.onload = () => {
-  // let hotelcontroller = new HotelController(1, 2);
-  // hotelcontroller = new HotelController(1, 12);
+  let hotelcontroller = new HotelController(1, 2);
+  hotelcontroller = new HotelController(1, 12);
   const hotelModel = new HotelModel(defaultReserveList);
   const spanEl = document.createElement('div');
   spanEl.innerHTML = JSON.stringify(hotelModel.reserveList);
+  console.dir(spanEl+"by");
   document.body.appendChild(spanEl);
 };

@@ -1,15 +1,16 @@
 // @flow
+import Data from '../../hotel-base';
 export class HotelModel {
-  private _reserveList: object[] = [];
+  _reserveList;
 
   constructor(reserveList: string) {
     if (!localStorage['hotelReserveList']) {
-      this._reserveList = JSON.parse(reserveList);
+      this._reserveList = Data;
     } else {
       this._reserveList = JSON.parse(localStorage['hotelReserveList']);
     }
   }
-  get reserveList(): object[] {
-    return this.reserveList;
+  get reserveList() {
+    return this._reserveList;
   }
 }
