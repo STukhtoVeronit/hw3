@@ -1,3 +1,4 @@
+// @flow
 export class HotelView {
 // (model: HotelModel, elements: object) {
 //     this._model = model;

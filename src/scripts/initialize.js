@@ -1,7 +1,8 @@
+// @flow
 import { HotelController } from './hotelController';
 import { HotelModel } from './hotelModel';
 
-const devaltReserveList: string = '[{"id":1,"room":{"id":1,"number":101,' +
+const defaultReserveList = '[{"id":1,"room":{"id":1,"number":101,' +
     '"type":"lux","price":180},' +
     '"client":{"id":1,"name":"Alex","phone":"+375291122145"},"date-of-arrival":1532421571000,' +
     '"date-of-departure":1532521571000,"price":0},{"id":2,"room":{"id":2,"number":102,' +
@@ -20,9 +21,8 @@ const devaltReserveList: string = '[{"id":1,"room":{"id":1,"number":101,' +
 window.onload = () => {
   // let hotelcontroller = new HotelController(1, 2);
   // hotelcontroller = new HotelController(1, 12);
-  const hotelModel = new HotelModel(devaltReserveList);
+  const hotelModel = new HotelModel(defaultReserveList);
   const spanEl = document.createElement('div');
   spanEl.innerHTML = JSON.stringify(hotelModel.reserveList);
   document.body.appendChild(spanEl);
-
-}
+};

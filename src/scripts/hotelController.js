@@ -1,5 +1,6 @@
+// @flow
 import { HotelModel } from './hotelModel';
-import { HotelView } from './HotelView';
+import { HotelView } from './hotelView';
 
 export class HotelController {
   private hotelModel: HotelModel;

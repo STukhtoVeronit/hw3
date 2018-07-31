@@ -1,6 +1,7 @@
+// @flow
 class EventObserve {
-  private _sender: object;
-  private _listeners: { (x:object, args:any[]): void; }[] = [];
+  _sender: object;
+  _listeners: any[] = [];
 
   constructor(sender: object) {
     this._sender = sender;
