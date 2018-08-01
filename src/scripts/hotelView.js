@@ -1,5 +1,6 @@
 // @flow
-export class HotelView {
+/* exported HotelView */
+export default class HotelView {
 // (model: HotelModel, elements: object) {
 //     this._model = model;
 //     this._elements = elements;

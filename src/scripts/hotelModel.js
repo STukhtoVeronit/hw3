@@ -1,16 +1,11 @@
-// @flow
 import Data from '../../hotel-base';
-export class HotelModel {
-  _reserveList;
-
-  constructor(reserveList: string) {
-    if (!localStorage['hotelReserveList']) {
-      this._reserveList = Data;
-    } else {
-      this._reserveList = JSON.parse(localStorage['hotelReserveList']);
-    }
+/* exported HotelModel */
+export default class HotelModel {
+  constructor() {
+    this.reserveList = Data;
   }
+
   get reserveList() {
-    return this._reserveList;
+    return this.reserveList;
   }
 }

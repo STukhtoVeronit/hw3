@@ -1,9 +1,24 @@
 {
   "extends": [
-    "airbnb",
-    "plugin:flowtype/recommended"
+    "airbnb"
   ],
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        ["src/scripts", "./src/scripts"]
+      ]
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
   "parser": "babel-eslint",
+  "rules": {
+    "eol-last": 0,
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }]
+  },
   "plugins": [
     "flowtype"
   ]

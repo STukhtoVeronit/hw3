@@ -2,7 +2,7 @@
   "name": "hw3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot"
   },
@@ -24,11 +24,16 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-flow": "^6.23.0",
     "eslint": "^5.2.0",
+    "eslint-config-airbnb": "^17.0.0",
     "eslint-loader": "^2.1.0",
     "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
     "flow-bin": "^0.77.0",
     "webpack": "^4.16.3",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
-  }
+  },
+  "dependencies": {}
 }
